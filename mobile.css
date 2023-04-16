@@ -1,0 +1,121 @@
+html {
+    color-scheme: dark light;
+  }
+  
+  h1 {
+    font-weight: bold;
+    font-size: 4em;
+  }
+  
+  h2 {
+    font-weight: bold;
+    font-size: 3em;
+  }
+  p {
+    font-size: 2em;
+  }
+  
+  li {
+    font-size: 2em;
+  }
+  
+  pre {
+    font-size: 1em;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Prompt', sans-serif;
+    color: white;
+    background: #282b30;
+    overflow-x: hidden;
+  
+  }
+  
+  a:link {
+    color: #ff5047;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #c73d36;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #f7635b;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  
+  
+  section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 400px;
+  padding: 100px 20vw;
+  }
+  
+  footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100px;
+    padding: 20px 20vw;
+  }
+  
+  .list {
+    max-width: 50rem;
+    margin-inline: auto;
+    padding-inline: 1rem;
+    text-align: center;
+  }
+  
+  
+  .blue {
+  background: #454FBF ;
+  }
+  
+  .red {
+    background: #ff5047;
+  }
+  
+  .green {
+    background: #52885a;
+  }
+  .dark{
+    background: rgb(37, 37, 37);
+  }
+  
+  
+  .spacer {
+    aspect-ratio: 300/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+  }
+  
+  .layer1 {
+    background-image: url('./layered-waves-haikei.svg');
+  }
+
+  .button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #ff5047;
+  }
